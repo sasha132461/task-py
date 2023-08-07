@@ -7,6 +7,12 @@ else:
     for i in range(2,result):
         if result % i == 0:
             print("No")
+        elif result % 3 == 0:
+            print("No")
+        elif result % 5 == 0:
+            print("No")
+        elif result % 2 == 0:
+            print("No")
             break
         elif result % result == 0:
             print("Da")
